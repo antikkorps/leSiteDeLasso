@@ -1,15 +1,3 @@
-// Approche mobile
-main {
-    background-color: pink;
-}
-
-// Approche ordi
-@media (min-width: 600px) {
-    main {
-        background-color: red;
-    }
-}
-
 .nav-link {
     font-size: 2vh;
     font-family: 'Roboto', sans-serif;
@@ -28,6 +16,12 @@ h2 {
     font-family: 'Lobster', cursive;
     text-shadow: 2px 2px #558ABB;
     font-size: 6vh;
+}
+
+h5.modal-title {
+    font-family: 'Lobster', cursive;
+    font-size: 2vh;
+    color: black;
 }
 
 .wrapper {
