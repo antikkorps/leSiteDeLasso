@@ -1,0 +1,57 @@
+// Approche mobile
+main {
+    background-color: pink;
+}
+
+// Approche ordi
+@media (min-width: 600px) {
+    main {
+        background-color: red;
+    }
+}
+
+.nav-link {
+    font-size: 2vh;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px #558ABB;
+}
+
+.navbar-brand {
+    font-family: 'lobster', cursive;
+    font-size: 6vh;
+    text-shadow: 2px 2px #558ABB;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 2px 2px #558ABB;
+    font-size: 6vh;
+}
+
+.wrapper {
+    background: url(../images/space-gce381781d_1920.jpg) no-repeat center center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.wrapper>h1 {
+    font-weight: bold;
+    font-size: 30vh;
+    font-family: arial, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
