@@ -11,8 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a64c62e602.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="J:\wamp64\www\Eval Studi\leSiteDeLasso\leSiteDeLasso\public\css\style.css">
     <title>leSiteDeLasso</title>
+    <meta name="description" content="Il s'agit du site de notre association qui promeut l'accès à internet gratuit pour tous. Nous réalisons cela par l'envoi dans l'espace de satellites">
+    <meta name="keywords" content="association, internet, gratuit, satellites, innovations">
   </head>
   <body>
       <!--Ma Navbar ici-->
@@ -34,6 +37,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="Events.html">Nos prochains évènements</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../pages/contact.html">Contactez-nous!</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -42,81 +48,110 @@
       <!-- Start Hero -->
       <div class="bg-tranparent text-white px-4 py-5 text-center">
         <div class="py-5">
-          <h1 class="display-6 fw-bold texte-white" id="main-title">Bienvenue sur le site de L'asso</h1>
+          <h1 class="display-6 fw-bold texte-white" id="main-title">Nos évènements à venir</h1>
           <div class="col-lg-6 mx-auto">
-            <p class="fs-5 mb-4">Ce site a vocation à présenter différents projets sur lesquels nous travaillons</p>
+            <p class="fs-5 mb-4">Vous pourrez nous retrouver lors de ces manifestations et nous poser l'ensemble de vos questions</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3 fw-bold m-2" href="pages/about.html">En savoir plus</button>
-              <!--Modal-->
-              <button type="button" class="btn btn-outline-light btn-lg px-4 m-2" data-toggle="modal" data-target="#ModalCenter">Nous contacter</button>
-              <!-- Paramètres Modal -->
-              <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      ...
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-<!-- Paramètres Modal -->
+              
             </div>
           </div>
         </div>
       </div>
       <!-- End Hero -->
-      <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom text-white"></h2>
-      <!--Jumbotron-->
-        <div class="p-5 m-5 bg-light rounded-3">
-          <div class="container-fluid py-5">
-            <h2 class="display-5 fw-bold">Les prochains évènements</h2>
-            <p class="fs-4 text-center">Si vous voulez participez à nos prochains évènements, n'hésitez pas à nous y rejoindre</p>
-            <button class="btn btn-primary btn-lg" type="button">Les prochains évènements</button>
-          </div>
+      <!--Card custom 3-->
+      <section class="wrapper">
+        <div class="container-Lasso">
+            <div>
+                <img src="..\images\logo.png" class="Lasso-logo"/>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-lg-4">
+                            <div class="card">
+                                <a class="img-card" href="..\pages\contact.html">
+                                <img src="..\images\doodle-3505459_1920.png" />
+                              </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="..\pages\contact.html"> Grande collecte de fonds
+                                      </a>
+                                    </h4>
+                                    <p class="">
+                                        Venez nous aider à financer en achetant des glaces et des bonbons
+                                        <p class="date"><i class="fa fa-calendar" id="agenda" aria-hidden="true"></i> Le 29 Mars 2022 à 20h00</p>
+                                        <p class="où"><i class="fas fa-map-pin" id="pin"></i> Siège de l'association</p>
+                                        <p class="info"></p><i class="fas fa-info" id="info"></i> Entrée libre mais limitée, vous pouvez nous faire part de votre venue en remplissant le formulaire!
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="..\pages\contact.html" class="btn btn-link btn-block">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-4">
+                            <div class="card">
+                                <a class="img-card" href="..\pages\contact.html">
+                                <img src="..\images\sketch-3045125_1920.jpg" />
+                              </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="..\pages\contact.html"> Envole Moi!
+                                      </a>
+                                    </h4>
+                                    <p class="">
+                                        Une magnifique soirée de charité afin de récolter des fonds
+                                        <p class="date"><i class="fa fa-calendar" id="agenda" aria-hidden="true"></i> Le 29 Mars 2022 à 20h00</p>
+                                        <p class="où"><i class="fas fa-map-pin" id="pin"></i> Siège de l'association</p>
+                                        <p class="info"></p><i class="fas fa-info" id="info"></i> Une fois n'est pas coutume, l'entrée est libre mais vous pouvez nous faire part de votre venue en remplissant le formulaire!</p>
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="..\pages\contact.html" class="btn btn-link btn-block">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-lg-4">
+                            <div class="card">
+                                <a class="img-card" href="..\pages\contact.html">
+                                <img src="..\images\doodle-4861307_1920.jpg" />
+                              </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="h..\pages\contact.html"> Imagine all the people
+                                      </a>
+                                    </h4>
+                                    <p class="">
+                                      Une magnifique soirée de charité afin de récolter des fonds
+                                      <p class="date"><i class="fa fa-calendar" id="agenda" aria-hidden="true"></i> Le 29 Mars 2022 à 20h00</p>
+                                      <p class="où"><i class="fas fa-map-pin" id="pin"></i> Siège de l'association</p>
+                                      <p class="info"></p><i class="fas fa-info" id="info"></i> Une fois n'est pas coutume, l'entrée est libre mais vous pouvez nous faire part de votre venue en remplissant le formulaire!</p>
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="..\pages\contact.html" class="btn btn-link btn-block">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      <!--End of Jumbotron-->
-      <!-- CUSTOM CARD DISPLAY-->
-<div class="container px-4 py-5" id="custom-cards">
-  <h2 class="pb-2 border-bottom text-dark">Nos décollages récents</h2>
-  <div class="row">
-  <div class="card m-5 d-inline col-lg" style="width: 30rem;">
-    <img src="images/rocket-launch-g3780562a1_1920.jpg" class="card-img-top mt-3 rounded-lg" alt="décollage">
-    <div class="card-body">
-      <p class="card-text">Lancement de notre première navette en 2021 depuis le site de la NASA</p>
-    </div>
-  </div>
-
-  <div class="card m-5 d-inline col-lg" style="width: 30rem;">
-    <img src="images/rocket-launch-g43fefcf18_1920.jpg" class="card-img-top mt-3 rounded-lg" alt="décollage 2">
-    <div class="card-body">
-      <p class="card-text">Décollage réussi depuis notre lanceur de Guyane. Une nouvelle réussite dont nous nous félicitons</p>
-    </div>
-  </div>
-
-  <div class="card m-5 d-inline col-lg" style="width: 30rem;">
-    <img src="images/space-shuttle-g6ff21706d_1280.jpg" class="card-img-top mt-3 rounded-lg" alt="décollage 3">
-    <div class="card-body">
-      <p class="card-text">Mise en orbite de notre satellite qui permettra à l'ensemble de la population d'accéder à internet gratuitement</p>
-    </div>
-  </div>
-  </div>
-</div>
+    </section>
+    
+      <!--Card custom 3-->
+      
 <!-- Footer -->
-<div class="pt-4 my-md-5 pt-md-5 border-top col-lg-12">
-  <span class="text-muted">Site construit grâce à <a href="https://getbootstrap.com/">Bootstrap</a> et avec ❤️ par <a href="https://www.linkedin.com/in/franck-vienot-a0129a1a0/">Franck</a>.</span>
+<div class="pt-4 my-md-5 pt-md-5 border-top col-lg">
+  <span class="footer">Site construit grâce à <a href="https://getbootstrap.com/" class="link-footer">Bootstrap</a> et avec ❤️ par <a href="https://www.linkedin.com/in/franck-vienot-a0129a1a0/" class="link-footer">Franck</a>.</span>
   <p>
-    <a href="#">retour en haut ici</a>
+    <a href="#" class="link-footer">retour en haut ici</a>
   </p>
 </div>
 <!-- Footer end -->

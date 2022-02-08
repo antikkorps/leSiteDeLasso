@@ -18,6 +18,15 @@ h2 {
     font-size: 6vh;
 }
 
+h3 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px #558ABB;
+    font-size: 6vh;
+    color: black;
+
+}
+
 h5.modal-title {
     font-family: 'Lobster', cursive;
     font-size: 2vh;
@@ -26,12 +35,14 @@ h5.modal-title {
 
 .wrapper {
     background: url(../images/space-gce381781d_1920.jpg) no-repeat center center fixed;
-    height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     text-align: center;
+    display: table;
+    height: 100vh;
+    width: 100%;
 }
 
 .wrapper>h1 {
@@ -48,4 +59,314 @@ h5.modal-title {
     justify-content: center;
     align-items: center;
     align-content: center;
+}
+
+.illustrationHistorique {
+    width: 30vw;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.footer {
+    color: black;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px #558ABB;
+    font-size: 2vh;
+}
+
+.link-footer {
+    color: black;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px #558ABB;
+    font-size: 2vh;
+}
+
+/*cards events*/
+
+.tile {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 3px -1px rgba(151, 171, 187, 0.7);
+    float: left;
+    transform-style: preserve-3d;
+    margin: 10px 5px;
+
+}
+
+.header {
+    border-bottom: 1px solid #ebeff2;
+    padding: 19px 0;
+    text-align: center;
+    color: #59687f;
+    font-size: 600;
+    font-size: 19px;
+    position: relative;
+}
+
+.banner-img {
+    padding: 5px 5px 0;
+}
+
+.banner-img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.dates {
+    border: 1px solid #ebeff2;
+    border-radius: 5px;
+    padding: 20px 0px;
+    margin: 10px 20px;
+    font-size: 16px;
+    color: #5aadef;
+    font-weight: 600;
+    overflow: auto;
+}
+
+.dates div {
+    float: left;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.dates strong,
+.stats strong {
+    display: block;
+    color: #adb8c2;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.dates span {
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #ebeff2;
+}
+
+.stats {
+    border-top: 1px solid #ebeff2;
+    background: #f7f8fa;
+    overflow: auto;
+    padding: 15px 0;
+    font-size: 16px;
+    color: #59687f;
+    font-weight: 600;
+    border-radius: 0 0 5px 5px;
+}
+
+.stats div {
+    border-right: 1px solid #ebeff2;
+    width: 33.33333%;
+    float: left;
+    text-align: center
+}
+
+.stats div:nth-of-type(3) {
+    border: none;
+}
+
+div.footer {
+    text-align: right;
+    position: relative;
+    margin: 20px 5px;
+}
+
+div.footer a.Cbtn {
+    padding: 10px 25px;
+    background-color: #DADADA;
+    color: #666;
+    margin: 10px 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+div.footer a.Cbtn-primary {
+    background-color: #5AADF2;
+    color: #FFF;
+}
+
+div.footer a.Cbtn-primary:hover {
+    background-color: #7dbef5;
+}
+
+div.footer a.Cbtn-danger {
+    background-color: #fc5a5a;
+    color: #FFF;
+}
+
+div.footer a.Cbtn-danger:hover {
+    background-color: #fd7676;
+}
+
+/* Card template */
+
+.Lasso-logo {
+    width: 10vw;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 100px;
+}
+
+h1.heading {
+    color: #fff;
+    font-size: 1.15em;
+    font-weight: 900;
+    margin: 0 0 0.5em;
+    color: #505050;
+}
+
+@media (min-width: 450px) {
+    h1.heading {
+        font-size: 3.55em;
+    }
+}
+
+@media (min-width: 760px) {
+    h1.heading {
+        font-size: 3.05em;
+    }
+}
+
+@media (min-width: 900px) {
+    h1.heading {
+        font-size: 3.25em;
+        margin: 0 0 0.3em;
+    }
+}
+
+.card {
+    display: block;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: box-shadow .25s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: block;
+    overflow: hidden;
+}
+
+.img-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: all .25s ease;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: left;
+}
+
+.card-title {
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 1.65em;
+}
+
+.card-title a {
+    color: #000;
+    text-decoration: none !important;
+}
+
+.card-read-more {
+    border-top: 1px solid #D4D4D4;
+}
+
+.card-read-more a {
+    text-decoration: none !important;
+    padding: 10px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+/* Contact Form */
+.contact-form {
+    background: #fff;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+.contact-form .form-control {
+    border-radius: 0.75vh;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    height: 20vh;
+    width: auto;
+    margin-top: -40%;
+    border-radius: 75vh;
+    transform: rotate(29deg);
+    background-color: white;
+}
+
+.contact-form form {
+    padding: 10%;
+}
+
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+}
+
+.contact-form .btnContact {
+    width: 100%;
+    border: none;
+    border-radius: 1vh;
+    padding: 1.5%;
+    background: #5AADF2;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    padding: 1vh;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+#agenda {
+    font-size: 3vh;
+}
+
+#pin {
+    font-size: 3vh;
+}
+
+#info {
+    font-size: 3vh;
 }

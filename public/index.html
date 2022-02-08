@@ -11,8 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a64c62e602.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css\style.css">
     <title>leSiteDeLasso</title>
+    <meta name="description" content="Il s'agit du site de notre association qui promeut l'accès à internet gratuit pour tous. Nous réalisons cela par l'envoi dans l'espace de satellites">
+    <meta name="keywords" content="association, internet, gratuit, satellites, innovations">
   </head>
   <body>
       <!--Ma Navbar ici-->
@@ -34,6 +37,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="pages/Events.html">Nos prochains évènements</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/contact.html">Contactez-nous!</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -46,7 +52,7 @@
           <div class="col-lg-6 mx-auto">
             <p class="fs-5 mb-4">Ce site a vocation à présenter différents projets sur lesquels nous travaillons</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3 fw-bold m-2" href="pages/about.html">En savoir plus</button>
+              <a type="button" class="btn btn-primary btn-lg px-4 me-sm-3 fw-bold m-2" href="./pages/about.html">En savoir plus</a>
               <!--Modal call to action here-->
               <button type="button" class="btn btn-outline-light btn-lg px-4 m-2" data-bs-toggle="modal" data-bs-target="#ModalCenter">Nous contacter</button>
             </div>
@@ -95,13 +101,13 @@
           <div class="container-fluid py-5">
             <h2 class="display-5 fw-bold">Les prochains évènements</h2>
             <p class="fs-4 text-center">Si vous voulez participez à nos prochains évènements, n'hésitez pas à nous y rejoindre</p>
-            <button class="btn btn-primary btn-lg" type="button">Les prochains évènements</button>
+            <a class="btn btn-primary btn-lg" type="button" href=".\pages\Events.html">Les prochains évènements</a>
           </div>
         </div>
       <!--End of Jumbotron-->
       <!-- CUSTOM CARD DISPLAY-->
 <div class="container px-4 py-5" id="custom-cards">
-  <h2 class="pb-2 border-bottom text-dark">Nos décollages récents</h2>
+  <h2 class="pb-2 border-bottom text-white">Nos décollages récents</h2>
   <div class="row">
   <div class="card m-5 d-inline col-lg" style="width: 30rem;">
     <img src="images/rocket-launch-g3780562a1_1920.jpg" class="card-img-top mt-3 rounded-lg" alt="décollage">
@@ -126,10 +132,10 @@
   </div>
 </div>
 <!-- Footer -->
-<div class="pt-4 my-md-5 pt-md-5 border-top col-lg-12">
-    <span class="text-muted">Site construit grâce à <a href="https://getbootstrap.com/">Bootstrap</a> et avec ❤️ par <a href="https://www.linkedin.com/in/franck-vienot-a0129a1a0/">Franck</a>.</span>
+<div class="pt-4 my-md-5 pt-md-5 border-top col-lg">
+    <span class="footer">Site construit grâce à <a href="https://getbootstrap.com/" class="link-footer">Bootstrap</a> et avec ❤️ par <a href="https://www.linkedin.com/in/franck-vienot-a0129a1a0/" class="link-footer">Franck</a>.</span>
     <p>
-      <a href="#">retour en haut ici</a>
+      <a href="#" class="link-footer">retour en haut ici</a>
     </p>
 </div>
 <!-- Footer end -->
